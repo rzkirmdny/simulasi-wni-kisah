@@ -1,0 +1,72 @@
+{
+  "part": 1,
+  "duration": 115.551,
+  "lines": [
+    {
+      "line": "01_dajjal_hook",
+      "role": "DAJJAL",
+      "start": 0.4,
+      "end": 3.901
+    },
+    {
+      "line": "02_narator_janji",
+      "role": "NARATOR",
+      "start": 4.502,
+      "end": 15.49
+    },
+    {
+      "line": "03_narator_langgar",
+      "role": "NARATOR",
+      "start": 16.89,
+      "end": 20.092
+    },
+    {
+      "line": "04_raka_bermuda",
+      "role": "RAKA",
+      "start": 20.492,
+      "end": 23.898
+    },
+    {
+      "line": "05_nisa_matilampu",
+      "role": "NISA",
+      "start": 24.198,
+      "end": 27.104
+    },
+    {
+      "line": "06_abah_kisahasli",
+      "role": "ABAH",
+      "start": 27.704,
+      "end": 32.174
+    },
+    {
+      "line": "07_narator_madinah",
+      "role": "NARATOR",
+      "start": 33.774,
+      "end": 62.286
+    },
+    {
+      "line": "08_narator_badai",
+      "role": "NARATOR",
+      "start": 63.286,
+      "end": 81.536
+    },
+    {
+      "line": "09_tamim_sekoci",
+      "role": "TAMIM",
+      "start": 82.536,
+      "end": 94.748
+    },
+    {
+      "line": "10_jassasah",
+      "role": "AL-JASSASAH",
+      "start": 95.548,
+      "end": 103.63
+    },
+    {
+      "line": "11_tamim_takutsetan",
+      "role": "TAMIM",
+      "start": 104.23,
+      "end": 111.551
+    }
+  ]
+}

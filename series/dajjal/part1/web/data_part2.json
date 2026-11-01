@@ -1,0 +1,272 @@
+{
+ "part": 2,
+ "duration": 98.144,
+ "lines": [
+  {
+   "line": "01_dajjal_hook",
+   "role": "DAJJAL",
+   "start": 0.4,
+   "end": 3.901
+  },
+  {
+   "line": "12_narator_berantai",
+   "role": "NARATOR",
+   "start": 5.101,
+   "end": 19.01
+  },
+  {
+   "line": "13_dajjal_baisan",
+   "role": "DAJJAL",
+   "start": 19.81,
+   "end": 24.852
+  },
+  {
+   "line": "14_tamim_masih",
+   "role": "TAMIM",
+   "start": 25.252,
+   "end": 26.979
+  },
+  {
+   "line": "15_dajjal_thabariyah",
+   "role": "DAJJAL",
+   "start": 27.379,
+   "end": 34.36
+  },
+  {
+   "line": "16_tamim_airbanyak",
+   "role": "TAMIM",
+   "start": 34.76,
+   "end": 36.754
+  },
+  {
+   "line": "17_dajjal_airhabis",
+   "role": "DAJJAL",
+   "start": 37.254,
+   "end": 40.917
+  },
+  {
+   "line": "18_narator_zughar",
+   "role": "NARATOR",
+   "start": 41.817,
+   "end": 52.937
+  },
+  {
+   "line": "19_dajjal_pengakuan",
+   "role": "DAJJAL",
+   "start": 54.137,
+   "end": 68.655
+  },
+  {
+   "line": "20_narator_thaibah",
+   "role": "NARATOR",
+   "start": 70.255,
+   "end": 82.944
+  },
+  {
+   "line": "21_raka_gantung",
+   "role": "RAKA",
+   "start": 84.344,
+   "end": 87.024
+  },
+  {
+   "line": "22_narator_gantung",
+   "role": "NARATOR",
+   "start": 87.624,
+   "end": 95.144
+  }
+ ],
+ "captions": [
+  {
+   "text": "Sebentar lagi...",
+   "start": 0.4,
+   "end": 1.734,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "aku akan diizinkan keluar.",
+   "start": 1.734,
+   "end": 3.901,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "Di dalamnya ada manusia paling besar yang",
+   "start": 5.101,
+   "end": 8.691,
+   "role": "NARATOR"
+  },
+  {
+   "text": "pernah mereka lihat.",
+   "start": 8.691,
+   "end": 10.442,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Paling kuat belenggunya.",
+   "start": 10.442,
+   "end": 12.464,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Kedua tangannya terikat ke leher.",
+   "start": 12.464,
+   "end": 15.246,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Dari lutut sampai mata kakinya, dirantai besi.",
+   "start": 15.246,
+   "end": 19.01,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Ceritakan padaku tentang kebun kurma Baisan.",
+   "start": 19.81,
+   "end": 23.274,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "Masih berbuah?",
+   "start": 23.892,
+   "end": 24.852,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "Masih.",
+   "start": 25.252,
+   "end": 26.979,
+   "role": "TAMIM"
+  },
+  {
+   "text": "Sebentar lagi, ia tidak akan berbuah.",
+   "start": 27.379,
+   "end": 31.503,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "Danau Thabariyah, masih ada airnya?",
+   "start": 31.503,
+   "end": 34.361,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "Airnya banyak.",
+   "start": 34.76,
+   "end": 36.754,
+   "role": "TAMIM"
+  },
+  {
+   "text": "Sebentar lagi, airnya akan habis.",
+   "start": 37.254,
+   "end": 40.916,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "Dia juga bertanya tentang mata air Zughar.",
+   "start": 41.817,
+   "end": 44.45,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Lalu tentang seorang nabi yang muncul di Makkah.",
+   "start": 45.02,
+   "end": 48.009,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Setelah itu, dia membuka siapa dirinya.",
+   "start": 49.212,
+   "end": 52.938,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Aku adalah Al-Masih.",
+   "start": 54.137,
+   "end": 57.129,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "Sebentar lagi, aku akan diizinkan keluar.",
+   "start": 57.129,
+   "end": 58.782,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "Tidak ada satu negeri pun yang tidak",
+   "start": 58.782,
+   "end": 62.513,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "kudatangi dalam empat puluh malam.",
+   "start": 62.513,
+   "end": 66.037,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "Kecuali Makkah dan Thaibah.",
+   "start": 66.037,
+   "end": 68.655,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "Rasulullah SAW mengetukkan tongkatnya ke mimbar.",
+   "start": 70.255,
+   "end": 74.807,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Inilah Thaibah.",
+   "start": 75.964,
+   "end": 77.059,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Inilah Thaibah.",
+   "start": 77.838,
+   "end": 78.993,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Inilah Thaibah.",
+   "start": 79.72,
+   "end": 80.912,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Madinah.",
+   "start": 82.078,
+   "end": 82.943,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Terus pulaunya di mana, Bah?",
+   "start": 84.344,
+   "end": 85.881,
+   "role": "RAKA"
+  },
+  {
+   "text": "Bermuda?",
+   "start": 86.381,
+   "end": 87.025,
+   "role": "RAKA"
+  },
+  {
+   "text": "Rasulullah SAW menunjuk satu arah.",
+   "start": 87.624,
+   "end": 91.628,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Dan arah itu...",
+   "start": 92.356,
+   "end": 93.559,
+   "role": "NARATOR"
+  },
+  {
+   "text": "bukan Bermuda.",
+   "start": 94.016,
+   "end": 95.143,
+   "role": "NARATOR"
+  }
+ ]
+}

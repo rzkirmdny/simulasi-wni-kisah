@@ -1,0 +1,78 @@
+{
+  "part": 2,
+  "duration": 98.144,
+  "lines": [
+    {
+      "line": "01_dajjal_hook",
+      "role": "DAJJAL",
+      "start": 0.4,
+      "end": 3.901
+    },
+    {
+      "line": "12_narator_berantai",
+      "role": "NARATOR",
+      "start": 5.101,
+      "end": 19.01
+    },
+    {
+      "line": "13_dajjal_baisan",
+      "role": "DAJJAL",
+      "start": 19.81,
+      "end": 24.852
+    },
+    {
+      "line": "14_tamim_masih",
+      "role": "TAMIM",
+      "start": 25.252,
+      "end": 26.979
+    },
+    {
+      "line": "15_dajjal_thabariyah",
+      "role": "DAJJAL",
+      "start": 27.379,
+      "end": 34.36
+    },
+    {
+      "line": "16_tamim_airbanyak",
+      "role": "TAMIM",
+      "start": 34.76,
+      "end": 36.754
+    },
+    {
+      "line": "17_dajjal_airhabis",
+      "role": "DAJJAL",
+      "start": 37.254,
+      "end": 40.917
+    },
+    {
+      "line": "18_narator_zughar",
+      "role": "NARATOR",
+      "start": 41.817,
+      "end": 52.937
+    },
+    {
+      "line": "19_dajjal_pengakuan",
+      "role": "DAJJAL",
+      "start": 54.137,
+      "end": 68.655
+    },
+    {
+      "line": "20_narator_thaibah",
+      "role": "NARATOR",
+      "start": 70.255,
+      "end": 82.944
+    },
+    {
+      "line": "21_raka_gantung",
+      "role": "RAKA",
+      "start": 84.344,
+      "end": 87.024
+    },
+    {
+      "line": "22_narator_gantung",
+      "role": "NARATOR",
+      "start": 87.624,
+      "end": 95.144
+    }
+  ]
+}

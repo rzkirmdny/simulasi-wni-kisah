@@ -1,0 +1,296 @@
+{
+ "part": 1,
+ "duration": 115.551,
+ "lines": [
+  {
+   "line": "01_dajjal_hook",
+   "role": "DAJJAL",
+   "start": 0.4,
+   "end": 3.901
+  },
+  {
+   "line": "02_narator_janji",
+   "role": "NARATOR",
+   "start": 4.502,
+   "end": 15.49
+  },
+  {
+   "line": "03_narator_langgar",
+   "role": "NARATOR",
+   "start": 16.89,
+   "end": 20.092
+  },
+  {
+   "line": "04_raka_bermuda",
+   "role": "RAKA",
+   "start": 20.492,
+   "end": 23.898
+  },
+  {
+   "line": "05_nisa_matilampu",
+   "role": "NISA",
+   "start": 24.198,
+   "end": 27.104
+  },
+  {
+   "line": "06_abah_kisahasli",
+   "role": "ABAH",
+   "start": 27.704,
+   "end": 32.174
+  },
+  {
+   "line": "07_narator_madinah",
+   "role": "NARATOR",
+   "start": 33.774,
+   "end": 62.286
+  },
+  {
+   "line": "08_narator_badai",
+   "role": "NARATOR",
+   "start": 63.286,
+   "end": 81.536
+  },
+  {
+   "line": "09_tamim_sekoci",
+   "role": "TAMIM",
+   "start": 82.536,
+   "end": 94.748
+  },
+  {
+   "line": "10_jassasah",
+   "role": "AL-JASSASAH",
+   "start": 95.548,
+   "end": 103.63
+  },
+  {
+   "line": "11_tamim_takutsetan",
+   "role": "TAMIM",
+   "start": 104.23,
+   "end": 111.551
+  }
+ ],
+ "captions": [
+  {
+   "text": "Sebentar lagi...",
+   "start": 0.4,
+   "end": 1.734,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "aku akan diizinkan keluar.",
+   "start": 1.734,
+   "end": 3.901,
+   "role": "DAJJAL"
+  },
+  {
+   "text": "Seorang sahabat Nabi pernah bertemu Dajjal.",
+   "start": 4.502,
+   "end": 8.875,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Dirantai, di sebuah pulau.",
+   "start": 8.875,
+   "end": 10.64,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Dan Rasulullah SAW sendiri yang menceritakannya.",
+   "start": 10.64,
+   "end": 15.49,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Malam Jumat.",
+   "start": 16.89,
+   "end": 17.892,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Listrik satu kampung padam.",
+   "start": 18.34,
+   "end": 20.093,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Bah, Dajjal itu beneran dikurung di Segitiga Bermuda?",
+   "start": 20.492,
+   "end": 23.898,
+   "role": "RAKA"
+  },
+  {
+   "text": "Kak, jangan ngomongin itu pas mati lampu...",
+   "start": 24.198,
+   "end": 27.103,
+   "role": "NISA"
+  },
+  {
+   "text": "Nak...",
+   "start": 27.704,
+   "end": 29.517,
+   "role": "ABAH"
+  },
+  {
+   "text": "mau dengar kisah aslinya?",
+   "start": 29.907,
+   "end": 32.175,
+   "role": "ABAH"
+  },
+  {
+   "text": "Madinah.",
+   "start": 33.774,
+   "end": 34.751,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Terdengar seruan: ash-shalatu jami'ah.",
+   "start": 34.751,
+   "end": 38.566,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Orang-orang berdatangan.",
+   "start": 38.566,
+   "end": 40.595,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Selesai shalat, Rasulullah SAW duduk di mimbar",
+   "start": 40.595,
+   "end": 44.669,
+   "role": "NARATOR"
+  },
+  {
+   "text": "sambil tersenyum, lalu bersabda:",
+   "start": 44.669,
+   "end": 47.503,
+   "role": "NARATOR"
+  },
+  {
+   "text": "tetaplah di tempat kalian.",
+   "start": 47.503,
+   "end": 49.806,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Beliau mengumpulkan mereka bukan untuk kabar gembira,",
+   "start": 49.806,
+   "end": 55.113,
+   "role": "NARATOR"
+  },
+  {
+   "text": "bukan juga untuk peringatan.",
+   "start": 55.113,
+   "end": 57.917,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Tapi karena kisah seorang lelaki bernama Tamim ad-Dari.",
+   "start": 57.917,
+   "end": 62.286,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Tamim dulunya seorang Nasrani yang kemudian masuk Islam.",
+   "start": 63.286,
+   "end": 67.175,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Dia pernah berlayar bersama tiga puluh orang",
+   "start": 67.175,
+   "end": 70.144,
+   "role": "NARATOR"
+  },
+  {
+   "text": "dari kabilah Lakhm dan Judzam.",
+   "start": 70.144,
+   "end": 72.168,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Sebulan penuh ombak mempermainkan kapal mereka.",
+   "start": 72.168,
+   "end": 76.639,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Sampai menjelang matahari terbenam,",
+   "start": 76.639,
+   "end": 79.359,
+   "role": "NARATOR"
+  },
+  {
+   "text": "mereka melihat sebuah pulau.",
+   "start": 79.359,
+   "end": 81.536,
+   "role": "NARATOR"
+  },
+  {
+   "text": "Kami naik sekoci dan masuk ke pulau itu.",
+   "start": 82.536,
+   "end": 85.269,
+   "role": "TAMIM"
+  },
+  {
+   "text": "Lalu muncul seekor makhluk.",
+   "start": 85.269,
+   "end": 87.446,
+   "role": "TAMIM"
+  },
+  {
+   "text": "Bulunya sangat lebat,",
+   "start": 87.446,
+   "end": 88.842,
+   "role": "TAMIM"
+  },
+  {
+   "text": "kami tidak tahu mana depan, mana belakangnya.",
+   "start": 88.842,
+   "end": 91.834,
+   "role": "TAMIM"
+  },
+  {
+   "text": "Kami bertanya: celaka, makhluk apa engkau?",
+   "start": 91.834,
+   "end": 94.748,
+   "role": "TAMIM"
+  },
+  {
+   "text": "Aku Al-Jassasah.",
+   "start": 95.548,
+   "end": 97.142,
+   "role": "AL-JASSASAH"
+  },
+  {
+   "text": "Pergilah ke lelaki di dalam biara itu.",
+   "start": 97.684,
+   "end": 99.951,
+   "role": "AL-JASSASAH"
+  },
+  {
+   "text": "Dia sangat merindukan kabar kalian.",
+   "start": 100.599,
+   "end": 103.63,
+   "role": "AL-JASSASAH"
+  },
+  {
+   "text": "Ketika ia menyebut seorang lelaki,",
+   "start": 104.23,
+   "end": 106.482,
+   "role": "TAMIM"
+  },
+  {
+   "text": "kami takut, jangan-jangan makhluk itu setan.",
+   "start": 106.482,
+   "end": 109.396,
+   "role": "TAMIM"
+  },
+  {
+   "text": "Kami bergegas menuju biara.",
+   "start": 109.856,
+   "end": 111.551,
+   "role": "TAMIM"
+  }
+ ]
+}
