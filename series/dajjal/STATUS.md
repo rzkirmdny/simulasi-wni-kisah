@@ -11,13 +11,18 @@ Baris VO: 01 sampai 11 (lihat `part1/vo/lines.md`).
 
 ## Part 2: Lelaki Berantai (1:38) — siap render Colab (hasil langsung final)
 VO baris 12 sampai 22 di `part1/vo/`; `part1/build_vo.py` membuat `part1/vo_part2.wav`.
-Folder `part2/`: `web/scene.js` (util disalin dari Part 1), `render.py` (batas segmen dibaca dari `window.__cuts`), `make_sfx.py` -> `sfx_part2.wav`, `mix_audio.py`, `colab_render.ipynb` (zip `dajjal-part2.zip` berisi render.py, web/, vo_part2.wav, sfx_part2.wav, mix_audio.py).
+Folder `part2/`: `web/scene.js` (util disalin dari Part 1), `render.py` (batas segmen dibaca dari `window.__cuts`), `make_sfx.py` -> `sfx_part2.wav`, `mix_audio.py`.
 Adegan: 1 hook kepala berantai + "DAJJAL BICARA PADA SAHABAT NABI" · 2 dalam biara, seluruh badan, kamera ke leher lalu kaki · 3 tanya jawab: kebun kurma Baisan (kurma rontok), Danau Thabariyah (surut, retak) · 4 mata air Zughar, lalu Makkah (Ka'bah + cahaya, tanpa sosok) · 5 "Aku adalah Al-Masih" (kilat merah, rantai menegang) · 6 40 malam: kota-kota padam, hitungan MALAM KE-n, tinggal Makkah dan Thaibah bercahaya · 7 mimbar bercahaya tanpa sosok, 3 ketukan, lalu Madinah · 8 langgar, Raka "Bermuda?" · 9 sinar dari Madinah menunjuk satu arah, satu mata di ujung · 10 langgar, "Bersambung · Part 3".
 Label tempat di atas (top 330px) memakai elemen #name.
 Skoring: pakai ulang `part1/score_part1.mp3` (masuk zip sebagai `score.mp3`, fade mulai 95.1 s).
 Colab langsung menghasilkan MP4 final (visual + VO + SFX + skoring lewat `mix_audio.py`).
 Render GPU: `render.py` memanaskan GPU dulu (tiap adegan digambar sekali, lalu frame awal 40x + jeda 2 s + 10x) supaya tidak ada frame putih di awal tiap worker. Jangan menunggu requestAnimationFrame sebelum screenshot.
 Belum: render final Colab G4.
+
+## Alur render (semua part, mulai Part 2)
+1. `python series/dajjal/make_zip.py N` → `dist/dajjal-partN.zip` (VO dan SFX dibuat otomatis kalau belum ada; skoring `partN/score.mp3`, kalau tidak ada pakai `part1/score_part1.mp3`).
+2. Upload zip ke My Drive, buka `series/dajjal/colab_render.ipynb`, ganti `PART = N`, runtime G4, Run all. Hasil MP4 final langsung di My Drive.
+Part baru: salin `part2/render.py` (sudah ada pemanasan GPU) dan `part2/mix_audio.py`, ganti angka part dan titik fade musik.
 
 ## Part 3 dst (rencana, belum final)
 Ciri Dajjal (dari timur/Khurasan, mata kanan buta, kafir di dahi), 40 hari (sehari seperti setahun, perkirakan waktu shalat), fitnah hujan/kekeringan dan air/api, Makkah-Madinah dijaga malaikat, pemuda yang dibunuh lalu dihidupkan, Nabi Isa di menara putih Damaskus dan gerbang Lud, tiga bekal (10 ayat Al-Kahfi, doa tasyahud, menjauh).
