@@ -4,7 +4,8 @@ Naskah lengkap (versi awal 6 part, Part 2 dst masih draf lama): Claude Doc "Nask
 https://claude.ai/artifact/2og6UrxMqC4sqQbqv19SQ5
 
 ## Part 1: Lelaki di Pulau (sekitar 1:56)
-Status: VO, caption, adegan, SFX, skoring selesai. Menunggu render ulang di Colab setelah baris Abah diganti suara Eyang (timeline mundur 2,9 detik).
+Status: SELESAI (2 Nov 2026). Final 1:56, 49 MB: render Colab + VO + SFX + skoring (`mix_audio.py`). Baris 06 Abah memakai suara Eyang ("Nak... mau dengar kisah aslinya?").
+File video final tidak disimpan di repo (terlalu besar).
 Isi: hook bisikan Dajjal, langgar mati lampu, Madinah (seruan, mimbar), kisah Tamim ad-Dari: badai sebulan, pulau, Al-Jassasah, bergegas ke biara. Gantung: pintu biara terbuka, rantai, satu mata menyala.
 Baris VO: 01 sampai 11 (lihat `part1/vo/lines.md`).
 

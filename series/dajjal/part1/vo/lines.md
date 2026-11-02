@@ -18,7 +18,7 @@ Suara:
 | 03 | NARATOR | 03_narator_langgar.mp3 | 3.55 | ada |
 | 04 | RAKA | 04_raka_bermuda.mp3 | 3.55 | ada |
 | 05 | NISA | 05_nisa_matilampu.mp3 | 3.24 | ada |
-| 06 | ABAH | 06_abah_kisahasli.mp3 | 1.80 | ada |
+| 06 | ABAH | 06_abah_kisahasli.mp3 | 4.47 | ada (suara Eyang) |
 | 07 | NARATOR | 07_narator_madinah.mp3 | 28.68 | ada |
 | 08 | NARATOR | 08_narator_badai.mp3 | 18.40 | generate ulang di akun baru, belum diunduh |
 | 09 | TAMIM | 09_tamim_sekoci.mp3 | 12.28 | ada |
