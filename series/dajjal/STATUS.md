@@ -16,6 +16,7 @@ Adegan: 1 hook kepala berantai + "DAJJAL BICARA PADA SAHABAT NABI" · 2 dalam bi
 Label tempat di atas (top 330px) memakai elemen #name.
 Skoring: pakai ulang `part1/score_part1.mp3` (masuk zip sebagai `score.mp3`, fade mulai 95.1 s).
 Colab langsung menghasilkan MP4 final (visual + VO + SFX + skoring lewat `mix_audio.py`).
+Render GPU: `render.py` memanaskan GPU dulu (tiap adegan digambar sekali, lalu frame awal 40x + jeda 2 s + 10x) supaya tidak ada frame putih di awal tiap worker. Jangan menunggu requestAnimationFrame sebelum screenshot.
 Belum: render final Colab G4.
 
 ## Part 3 dst (rencana, belum final)

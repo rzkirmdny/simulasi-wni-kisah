@@ -62,6 +62,24 @@ def shot(page, t):
     return page.locator("#stage").screenshot(type="jpeg", quality=92)
 
 
+def warmup(page, t0):
+    """Panaskan GPU sebelum frame disimpan (ANGLE + Vulkan mengompilasi shader di latar belakang;
+    frame yang difoto sebelum selesai keluar putih). Tiap adegan digambar dulu sekali, karena worker
+    yang mulai di tengah video juga akan bertemu adegan lain (mis. shader gelap langgar) untuk pertama kali.
+    Jangan menunggu requestAnimationFrame di sini: itu malah membuat semua frame putih."""
+    import time
+    for c in page.evaluate("window.__cuts"):
+        for k in range(3):
+            page.evaluate(f"window.__seek({c + 0.5})")
+        page.locator("#stage").screenshot(type="jpeg", quality=50)
+    for k in range(40):
+        page.evaluate(f"window.__seek({t0})")
+    time.sleep(2)
+    for k in range(10):
+        page.evaluate(f"window.__seek({t0})")
+    page.locator("#stage").screenshot(type="jpeg", quality=50)
+
+
 def segments(part):
     """Batas adegan dibaca dari scene.js (window.__cuts), jadi selalu sama."""
     d = json.loads((ROOT / "web" / f"data_part{part}.json").read_text())
@@ -78,6 +96,7 @@ def render_video(part, gpu, only=None):
         open_page(page, port, part)
         cuts = page.evaluate("window.__cuts")
         frames = sorted({round(c * FPS) for c in cuts if c < dur} | {0}) + [total]
+        warmup(page, 0)
         files = []
         for i in range(len(frames) - 1):
             f0, f1 = frames[i], frames[i + 1]
@@ -115,6 +134,7 @@ def render_stills(part, times, gpu):
     with sync_playwright() as p:
         b, page = browser(p, gpu)
         open_page(page, port, part)
+        warmup(page, times[0])
         for t in times:
             (out / f"p{part}_{t:07.2f}.jpg").write_bytes(shot(page, t))
         b.close()
@@ -131,6 +151,7 @@ def render_chunk(part, lo, hi, out_file, port_hint=0):
     with sync_playwright() as p:
         b, page = browser(p, False)
         open_page(page, port, part)
+        warmup(page, lo / FPS)
         enc = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS),
                                 "-c:v", "mjpeg", "-i", "-", "-c:v", "libx264", "-preset", "medium", "-crf", "20",
                                 "-pix_fmt", "yuv420p", "-r", str(FPS), str(tmp)], stdin=subprocess.PIPE)
